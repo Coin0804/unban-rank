@@ -1,6 +1,19 @@
 {
   "name": "koishi-plugin-unban-rank",
-  "version": "0.0.1",
+  "description": "解禁排名",
+  "version": "0.0.2",
+  "author": {
+    "name": "coin0804",
+    "email": "coin0804@outlook.com"
+  },
+  "contributors": [
+    "Coin<coin0804@outlook.com>"
+  ],
+  "homepage": "https://github.com/Coin0804/unban-rank",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Coin0804/unban-rank.git"
+  },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -12,10 +25,20 @@
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "onebot",
+    "ban"
   ],
   "peerDependencies": {
     "koishi": "^4.13.1",
-    "@koishijs/plugin-adapter-onebot":"^5.6.5"
+    "@koishijs/plugin-adapter-onebot": "^5.6.5"
+  },
+  "koishi": {
+    "description": {
+      "zh": "解禁排名。"
+    },
+    "locales": [
+      "zh"
+    ]
   }
 }
